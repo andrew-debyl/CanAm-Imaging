@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__links {
+    gap: 16px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
+
