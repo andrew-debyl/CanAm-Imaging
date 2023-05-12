@@ -30,6 +30,7 @@ function Nav() {
           <li className="nav__list">
             <Link to="/contact" className="nav__link">Contact Us</Link>
           </li>
+          
         </ul>
       </div>
     </nav>
