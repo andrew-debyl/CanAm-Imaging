@@ -1,0 +1,13 @@
+.about__title {
+    display: flex;
+    justify-content: center;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    color: #005fcf;
+}
