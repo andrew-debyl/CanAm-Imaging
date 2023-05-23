@@ -1,13 +1,37 @@
-.about__title {
-    display: flex;
-    justify-content: center;
+.about {
+    margin: 0 auto;
+    max-width: 1500px;
 }
 
-.about__wrapper {
-    display: flex;
-    justify-content: center;
+.about--title {
+    text-align: center;
+    margin: 20px 0;
 }
 
-.email {
+.about__icon--wrapper {
+    border: 3px solid #005fcf;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+.about__icon {
+    height: 75px;
     color: #005fcf;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+
+.about__para {
+    max-width: 1000px;
+    line-height: 1.5;
 }

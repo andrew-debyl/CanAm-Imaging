@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Nav.css";
+import temp from "../assets/template_canamlogo.jpg"
 
 function Nav() {
   return (
     <nav className="nav">
       <div className="nav__img-container">
         <Link to="/">
-          <img src='' alt='' className="nav__img" />
+          <img src={temp} alt='' className="nav__img" />
         </Link>
       </div>
       <div className="nav__links-container">
@@ -28,9 +29,8 @@ function Nav() {
             <Link to="/about" className="nav__link">About</Link>
           </li>
           <li className="nav__list">
-            <Link to="/contact" className="nav__link">Contact Us</Link>
+            <Link to="/contact" className="contact--us">Contact Us</Link>
           </li>
-          
         </ul>
       </div>
     </nav>

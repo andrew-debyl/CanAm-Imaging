@@ -1,75 +1,84 @@
 import React from "react";
 import "../styles/About.css";
+import {
+  UserGroupIcon,
+  BuildingOffice2Icon,
+  ChatBubbleLeftRightIcon,
+  ArrowPathRoundedSquareIcon,
+  ClipboardDocumentCheckIcon,
+} from "@heroicons/react/24/solid";
 
 function About() {
   return (
     <div className="about">
-      <h1 className="about__title">We look forward to serving you</h1>
-      <div className="about__wrapper">
-        <div className="about__left">
-          <h2>Points of Contact</h2>
-          <div className="about__poc--us">
-            <h3>United States</h3>
-            <p>50 Greenleaf Street Rochester</p>
-            <p>New York, 14609</p>
-            <p>Toll Free: 1-866-758-0007</p>
-            <p>Phone: (585) 224-4033</p>
-            <p>Fax: (585) 224-3999</p>
+      <h1 className="about--title">
+        Expertise built on 30 years of Experience
+      </h1>
+      <div className="about__container">
+        <div className="about__desc">
+          <div className="about__icon--wrapper">
+            <ChatBubbleLeftRightIcon className="about__icon"></ChatBubbleLeftRightIcon>
           </div>
-          <div className="about__poc--can">
-            <h3>Canada</h3>
-            <p>7321 Victoria Park Ave Unit 3</p>
-            <p>Markham ON, L3R2Z8</p>
-            <p>Toll Free: 1-866-758-0007</p>
-            <p>Phone: (905) 770-1118</p>
-            <p>Fax: (905) 770-1119</p>
-          </div>
-          <div className="about__emails">
-            <h3>General Contact</h3>
-            <p className="email">info@canamimaging.com</p>
-            <h3>Parts</h3>
-            <p className="email">parts@canamimaging.com</p>
-            <h3>Supplies</h3>
-            <p className="email">supplies@canamimaging.com</p>
-            <h3>Technical Support</h3>
-            <p className="email">tech@canamimaging.com</p>
+          <p className="about__para">
+            At the heart of CanAm Imaging is a commitment to provide
+            unparalleled customer service – a goal that we achieve by providing
+            services that go above and beyond the provision of equipment. From
+            flexible financing and guarantees to after-sales support, we take a
+            hands-on approach to customer service.
+          </p>
+        </div>
+        <div className="about__desc">
+          <p className="about__para">
+            We have a 40,000 square foot reconditioning and distribution
+            facility in Rochester (New York), a distribution facility in Irvine
+            (California), and offices in Richmond Hill (Ontario), and Greensboro
+            (North Carolina). CanAm Imaging is more than well equipped to serve
+            our extensive list of satisfied clients in North America and our
+            Canon, Kodak, Konica Minolta, Ricoh and Xerox Export customers
+            worldwide.
+          </p>
+          <div className="about__icon--wrapper">
+            <BuildingOffice2Icon className="about__icon"></BuildingOffice2Icon>
           </div>
         </div>
-        <div className="about__right">
-          <h2>Contact Us</h2>
-          <div class="form__item">
-            <label class="form__item--label">Name</label>
-            <input class="input" name="user_name" type="text" required></input>
+        <div className="about__desc">
+          <div className="about__icon--wrapper">
+            <UserGroupIcon className="about__icon"></UserGroupIcon>
           </div>
-          <div class="form__item">
-            <label class="form__item--label">Email</label>
-            <input
-              class="input"
-              name="user_email"
-              type="email"
-              required
-            ></input>
+          <p className="about__para">
+            Combining engineering excellence, a staff of industry professionals
+            and a well-trained reconditioning team with the 65 years of print
+            and copy expertise that our principals bring to the table, we are
+            proud to offer high- and mid-volume print and copy businesses the
+            highest quality pre-owned equipment, Xerox parts Servicing the ISO
+            and self service marketplace in the United States and Canada, copy
+            and print supplies with unparalleled service.
+          </p>
+        </div>
+        <div className="about__desc">
+          <p className="about__para">
+            From reselling your current equipment to providing a single unit or
+            managing an entire fleet installation, we are solutions-driven,
+            always looking for ways to help you operate more efficiently while
+            earning greater profits.
+          </p>
+          <div className="about__icon--wrapper">
+            <ArrowPathRoundedSquareIcon className="about__icon"></ArrowPathRoundedSquareIcon>
           </div>
-          <div class="form__item">
-            <label class="form__item--label">Phone</label>
-            <input class="input" name="user_email" type="text" required></input>
+        </div>
+        <div className="about__desc">
+          <div className="about__icon--wrapper">
+            <ClipboardDocumentCheckIcon className="about__icon"></ClipboardDocumentCheckIcon>
           </div>
-          <div class="form__item">
-            <label class="form__item--label">Company</label>
-            <input class="input" name="user_email" type="text" required></input>
-          </div>
-          <div class="form__item">
-            <label class="form__item--label">Message</label>
-            <textarea
-              class="input"
-              name="message"
-              type="text"
-              required
-            ></textarea>
-          </div>
-          <button id="contact__submit" class="form__submit">
-            Submit
-          </button>
+          <p className="about__para">
+            Selected reconditioned Xerox equipment is covered by the Xerox Full
+            Service Maintenance Agreement. To find out how this benefits you for
+            ongoing maintenance of your equipment. We invite you to take
+            advantage of the strong network of manufacturers and independent
+            service organizations that our principals have built over the years,
+            as well as our own, highly qualified technical support team that
+            welcomes the opportunity to assist you by telephone or online.
+          </p>
         </div>
       </div>
     </div>
