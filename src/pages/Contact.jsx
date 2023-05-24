@@ -9,11 +9,11 @@ function Contact() {
         <div className="contact__left">
           <h2>Contact Us</h2>
           <div class="form__item">
-            <label class="form__item--label">Name</label>
+            <label class="form__item--label">Name<span className="red">*</span></label>
             <input class="input" name="user_name" type="text" required></input>
           </div>
           <div class="form__item">
-            <label class="form__item--label">Email</label>
+            <label class="form__item--label">Email<span className="red">*</span></label>
             <input
               class="input"
               name="user_email"
@@ -22,17 +22,17 @@ function Contact() {
             ></input>
           </div>
           <div class="form__item">
-            <label class="form__item--label">Phone</label>
-            <input class="input" name="user_email" type="text" required></input>
+            <label class="form__item--label">Phone<span className="red">*</span></label>
+            <input class="input" name="user_phone" type="text" required></input>
           </div>
           <div class="form__item">
-            <label class="form__item--label">Company</label>
-            <input class="input" name="user_email" type="text" required></input>
+            <label class="form__item--label">Company<span className="red">*</span></label>
+            <input class="input" name="user_company" type="text" required></input>
           </div>
           <div class="form__item">
-            <label class="form__item--label">Message</label>
+            <label class="form__item--label">Message<span className="red">*</span></label>
             <textarea
-              class="input"
+              class="input--message"
               name="message"
               type="text"
               required
