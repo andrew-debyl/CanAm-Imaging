@@ -1,17 +1,13 @@
-.footer {
-   
-}
-
 .footer__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 48px 0;
-    gap: 30px;
+    gap: 36px;
 }
 
 .footer__links {
-    gap: 32px;
+    gap: 40px;
 }
 
 .footer__link {
@@ -25,4 +21,16 @@
 
 .footer__link--container:hover {
     transform: scale(1.1);
+}
+
+.footer__link--container:active {
+    transform: scale(0.8);
+}
+
+.footer__logo--container {
+    max-width: 200px;
+}
+
+.footer--logo {
+    width: 100%;
 }

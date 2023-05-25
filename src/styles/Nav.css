@@ -16,29 +16,41 @@
 
 .nav__list:hover {
     transform: scale(1.1);
-    
+}
+
+.nav__list:active {
+    transform: scale(0.8);
 }
 
 .nav__link {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 19px;
     transition: all 300ms ease-in-out;
 }
 
 .nav__link:hover {
-    color: #cc3333;
+    color: #dd1f26;
 }
 
 .contact--us {
     border-radius: 30px;
     text-decoration: none;
-    background-color: #005fcf;
+    background-color: #253c95;
     color: white;
     padding: 12px 28px;
     transition: all 300ms ease-in-out;
 }
 
 .contact--us:hover {
-    background-color: #cc3333;
+    background-color: #dd1f26;
+}
+
+.nav__img-container {
+    max-width: 200px;
+    margin: 16px 0;
+}
+
+.nav__img {
+    width: 100%;
 }

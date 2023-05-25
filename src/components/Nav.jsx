@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Nav.css";
-import temp from "../assets/template_canamlogo.jpg"
+import logo from "../assets/logo.png"
 
 function Nav() {
   return (
     <nav className="nav">
       <div className="nav__img-container">
         <Link to="/">
-          <img src={temp} alt='' className="nav__img" />
+          <img src={logo} alt='' className="nav__img" />
         </Link>
       </div>
       <div className="nav__links-container">
