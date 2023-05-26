@@ -23,14 +23,14 @@
     transform: scale(1.1);
 }
 
-.footer__link--container:active {
-    transform: scale(0.8);
-}
-
 .footer__logo--container {
     max-width: 200px;
 }
 
 .footer--logo {
     width: 100%;
+}
+
+.footer__copyright {
+    margin-top: 4px;
 }

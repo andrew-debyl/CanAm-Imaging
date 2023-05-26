@@ -10,7 +10,6 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <hr style={{border: "1px solid #eee"}}/>
         <Routes>
           <Route path="/" exact element={<Home/>} />
           <Route path="/about" exact element={<About/>} />
