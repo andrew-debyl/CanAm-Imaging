@@ -7,13 +7,12 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 function Nav() {
   return (
     <div className="nav--container">
-    <nav className="nav">
-      <div className="nav__img-container">
-        <Link to="/">
-          <img src={logo} alt="" className="nav__img" />
-        </Link>
-      </div>
-      <div className="nav__links-container">
+      <nav className="nav">
+        <div className="nav__img-container">
+          <Link to="/">
+            <img src={logo} alt="" className="nav__img" />
+          </Link>
+        </div>
         <ul className="nav__links">
           <li className="nav__list">
             <Link to="/" className="nav__link">
@@ -67,8 +66,7 @@ function Nav() {
             </Link>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
     </div>
   );
 }

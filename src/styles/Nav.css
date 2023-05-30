@@ -1,8 +1,9 @@
 .nav--container {
-    position: sticky;
-    top: 0;
-    background-color: white;
-    border-bottom: 2px solid #eee;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 2px solid #eee;
+  padding: 0 12px;
 }
 
 .nav {
@@ -15,6 +16,8 @@
 
 .nav__links {
   gap: 38px;
+  display: flex;
+  align-items: center;
 }
 
 .nav__list {
