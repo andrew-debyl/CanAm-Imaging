@@ -11,7 +11,7 @@ function Contact() {
       <div className="contact__wrapper">
         <div className="contact__left">
           <div className="contact__poc">
-            <h3>United States</h3>
+            <h3 className="contact__poc--title">United States</h3>
             <p>50 Greenleaf Street Rochester, New York, 14609</p>
             <p>
               <b>Toll Free:</b> 1-866-758-0007
@@ -24,7 +24,7 @@ function Contact() {
             </p>
           </div>
           <div className="contact__poc">
-            <h3>Canada</h3>
+            <h3 className="contact__poc--title">Canada</h3>
             <p>7321 Victoria Park Ave Unit 3, Markham ON, L3R2Z8</p>
             <p>
               <b>Toll Free:</b> 1-866-758-0007
@@ -37,7 +37,7 @@ function Contact() {
             </p>
           </div>
           <div className="contact__emails">
-            <h3>Contact Emails</h3>
+            <h3 className="contact__poc--title">Contact Emails</h3>
             <h4>General Contact</h4>
             <p className="email">info@canamimaging.com</p>
             <h4>Parts</h4>
@@ -88,7 +88,7 @@ function Contact() {
           </div>
           <div className="form__item">
             <textarea
-              className="input--message"
+              className="input"
               name="message"
               type="text"
               placeholder="Enter your Message"
