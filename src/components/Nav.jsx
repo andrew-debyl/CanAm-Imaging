@@ -47,7 +47,7 @@ function Nav() {
             </Link>
             <ul className="dropdown">
               <li>
-                <Link to="/techsupport" onClick={scrollToTop}>Tech Support</Link>
+                <Link to="/techsupport" onClick={scrollToTop}>Technical Support</Link>
               </li>
               <li>
                 <Link to="/buyingorselling" onClick={scrollToTop}>Buying or Selling</Link>
