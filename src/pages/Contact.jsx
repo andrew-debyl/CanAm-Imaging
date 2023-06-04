@@ -38,13 +38,29 @@ function Contact() {
           <div className="contact__emails">
             <h3 className="contact__poc--title">Contact Emails</h3>
             <h4>General Contact</h4>
-            <p className="email">info@canamimaging.com</p>
+            <div className="email--wrapper">
+              <a href="mailto:info@canamimaging.com" className="email">
+                info@canamimaging.com
+              </a>
+            </div>
             <h4>Parts</h4>
-            <p className="email">parts@canamimaging.com</p>
+            <div className="email--wrapper">
+              <a href="mailto:parts@canamimaging.com" className="email">
+                parts@canamimaging.com
+              </a>
+            </div>
             <h4>Supplies</h4>
-            <p className="email">supplies@canamimaging.com</p>
+            <div className="email--wrapper">
+              <a href="mailto:supplies@canamimaging.com" className="email">
+                supplies@canamimaging.com
+              </a>
+            </div>
             <h4>Technical Support</h4>
-            <p className="email">tech@canamimaging.com</p>
+            <div className="email--wrapper">
+              <a href="mailto:tech@canamimaging.com" className="email">
+                tech@canamimaging.com
+              </a>
+            </div>
           </div>
         </div>
         <div className="contact__right">

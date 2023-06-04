@@ -1,0 +1,24 @@
+.parts {
+    margin: 140px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.parts--title {
+    margin-bottom: 12px;
+}
+
+.parts--para {
+    margin: 12px 0;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.parts--hr {
+    width: 44%;
+    border: 1px solid #eee;
+}

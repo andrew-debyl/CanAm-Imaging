@@ -60,8 +60,12 @@
     text-decoration: underline;
 }
 
-.email {
+.email--wrapper {
     padding-bottom: 16px;
+}
+
+.email {
+    text-decoration: none;
 }
 
 .form__item--label {
