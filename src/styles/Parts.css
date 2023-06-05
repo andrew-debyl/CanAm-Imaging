@@ -22,3 +22,17 @@
     width: 44%;
     border: 1px solid #eee;
 }
+
+.parts--contact {
+    margin-bottom: 12px;
+}
+
+.parts--title2 {
+    margin: 34px 0 12px 0;
+}
+
+.parts--contact-link {
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: #253c95;
+}
