@@ -30,10 +30,9 @@ function Parts() {
           <b>Phone:</b> <span className="red">+1 866-758-0007</span>
         </p>
         <p className="parts--contact">
-          <b>Email:</b>
-          <span className="blue">
+          <b>Email: </b>
+          <span>
             <a href="mailto:tech@canamimaging.com" className="email">
-              {" "}
               parts@canamimaging.com
             </a>
           </span>

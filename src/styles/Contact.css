@@ -7,7 +7,7 @@
 
 .contact__title--wrapper {
     padding: 150px 0;
-    background: linear-gradient(115deg, rgb(0, 95, 207) 0%, rgb(221, 31, 38) 100%);
+    background: linear-gradient(115deg, rgb(37, 60, 149) 0%, rgb(221, 31, 38) 100%);
     box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -40,7 +40,8 @@
 }
 
 .email {
-    color: #005fcf;
+    color: #253c95;
+    text-decoration: none;
 }
 
 .contact__poc {
@@ -62,10 +63,6 @@
 
 .email--wrapper {
     padding-bottom: 16px;
-}
-
-.email {
-    text-decoration: none;
 }
 
 .form__item--label {

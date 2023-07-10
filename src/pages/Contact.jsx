@@ -18,9 +18,6 @@ function Contact() {
             <p>
               <b>Phone:</b> (585) 224-4033
             </p>
-            <p>
-              <b>Fax:</b> (585) 224-3999
-            </p>
           </div>
           <div className="contact__poc">
             <h3 className="contact__poc--title">Canada</h3>
@@ -30,9 +27,6 @@ function Contact() {
             </p>
             <p>
               <b>Phone:</b> (905) 770-1118
-            </p>
-            <p>
-              <b>Fax:</b> (905) 770-1119
             </p>
           </div>
           <div className="contact__emails">

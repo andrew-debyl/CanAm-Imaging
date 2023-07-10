@@ -33,7 +33,7 @@
 }
 
 .about__partners {
-    background: linear-gradient(115deg, rgb(0, 95, 207) 0%, rgb(221, 31, 38) 100%);
+    background: linear-gradient(115deg, rgb(37, 60, 149) 0%, rgb(221, 31, 38) 100%);
     width: 100%;
     display: flex;
     flex-direction: column;
