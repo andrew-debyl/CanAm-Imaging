@@ -29,7 +29,7 @@ function About() {
             Xerox parts. CHANGE THIS?????? SOMETHING MORE/DIFFERENT HERE
           </p>
         </div>
-        <div>
+        <div className="about--img-container">
           <img src={blobImage} alt="" className="about--img" />
         </div>
       </div>

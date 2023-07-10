@@ -94,8 +94,53 @@
   display: block;
 }
 
+.dropdown__list:active .dropdown {
+  display: block;
+}
+
 .dropdown--btn {
     margin-left: 2px;
     margin-top: 1px;
     width: 20px;
+}
+
+/** RESPONSIVE **/
+
+@media (max-width: 1024px) {
+  .nav__img-container {
+    max-width: 140px;
+  }
+
+  .nav__links {
+    gap: 24px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .contact--us {
+    padding: 10px 24px;
+    font-size: 16px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .nav__img-container {
+    max-width: 120px;
+  }
+
+  .nav__links {
+    gap: 20px;
+  }
+
+  .nav__link {
+    font-size: 12px;
+  }
+
+  .contact--us {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
 }
