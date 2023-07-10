@@ -103,3 +103,24 @@
 .form__submit:active {
     transform: scale(0.8);
 }
+
+/** RESPONSIVE **/
+
+@media (max-width: 786px) {
+    .contact__wrapper {
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    .contact__left {
+        border: none;
+        align-items: center;
+        text-align: center;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 60px;
+    }
+
+    .contact__right {
+        padding-top: 60px;
+    }
+}

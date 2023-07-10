@@ -24,7 +24,7 @@ function Nav() {
             </Link>
           </li>
           <li className="nav__list dropdown__list">
-            <Link to="/products" className="nav__link" onClick={scrollToTop}>
+            <Link className="nav__link">
               Products
               <ChevronDownIcon className="dropdown--btn" />
             </Link>
@@ -41,7 +41,7 @@ function Nav() {
             </ul>
           </li>
           <li className="nav__list dropdown__list">
-            <Link to="/services" className="nav__link" onClick={scrollToTop}>
+            <Link className="nav__link">
               Services
               <ChevronDownIcon className="dropdown--btn" />
             </Link>
