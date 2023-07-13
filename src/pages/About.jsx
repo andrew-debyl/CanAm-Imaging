@@ -9,11 +9,11 @@ import {
 } from "@heroicons/react/24/solid";
 import blobImage from "../assets/blob-svg.png";
 import WhoWeAre from "../components/WhoWeAre";
-import xeroxLogo from '../assets/xerox-logo.png'
-import canonLogo from '../assets/canon-logo.png'
-import kodakLogo from '../assets/kodak-logo.png'
-import ricohLogo from '../assets/ricoh-logo.png'
-import konicaLogo from '../assets/konica-logo.png'
+import xeroxLogo from "../assets/xerox-logo.png";
+import canonLogo from "../assets/canon-logo.png";
+import kodakLogo from "../assets/kodak-logo.png";
+import ricohLogo from "../assets/ricoh-logo.png";
+import konicaLogo from "../assets/konica-logo.png";
 
 function About() {
   return (
@@ -36,11 +36,11 @@ function About() {
       <div className="about__partners">
         <h2>Our Product Partners</h2>
         <div className="about__partners--logos">
-          <img src={xeroxLogo} alt="" className="about__partners--logo"/>
-          <img src={canonLogo} alt="" className="about__partners--logo"/>
-          <img src={kodakLogo} alt="" className="about__partners--logo"/>
-          <img src={ricohLogo} alt="" className="about__partners--logo"/>
-          <img src={konicaLogo} alt="" className="about__partners--logo"/>
+          <img src={xeroxLogo} alt="" className="about__partners--logo" />
+          <img src={canonLogo} alt="" className="about__partners--logo" />
+          <img src={kodakLogo} alt="" className="about__partners--logo" />
+          <img src={ricohLogo} alt="" className="about__partners--logo" />
+          <img src={konicaLogo} alt="" className="about__partners--logo" />
         </div>
       </div>
       <div className="about-canam--wrapper">
