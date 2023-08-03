@@ -7,7 +7,7 @@ import {
   ArrowPathRoundedSquareIcon,
   ClipboardDocumentCheckIcon,
 } from "@heroicons/react/24/solid";
-import blobImage from "../assets/blob-svg.png";
+import building from "../assets/canam_building.jpg";
 import WhoWeAre from "../components/WhoWeAre";
 import xeroxLogo from "../assets/xerox-logo.png";
 import canonLogo from "../assets/canon-logo.png";
@@ -30,7 +30,7 @@ function About() {
           </p>
         </div>
         <div className="about--img-container">
-          <img src={blobImage} alt="" className="about--img" />
+          <img src={building} alt="" className="about--img" />
         </div>
       </div>
       <div className="about__partners">
@@ -59,14 +59,14 @@ function About() {
           <WhoWeAre
             title={"Proficient"}
             para={
-              "Combining engineering excellence, a staff of industry professionals and a well-trained reconditioning team with the 65 years of print and copy expertise that our principals bring to the table, we are proud to offer high- and mid-volume print and copy businesses the highest quality pre-owned equipment, Xerox parts Servicing the ISO and self service marketplace in the United States and Canada, copy and print supplies with unparalleled service."
+              "Combining engineering excellence, a staff of industry professionals and a well-trained reconditioning team with the 30 years of print and copy expertise that our principals bring to the table, we are proud to offer high- and mid-volume print and copy businesses the highest quality pre-owned equipment, Xerox parts Servicing the ISO and self service marketplace in the United States and Canada, copy and print supplies with unparalleled service."
             }
             icon={<UserGroupIcon className="about__icon"></UserGroupIcon>}
           ></WhoWeAre>
           <WhoWeAre
             title={"Resourceful"}
             para={
-              "We have a 40,000 square foot reconditioning and distribution facility in Rochester (New York), a distribution facility in Irvine (California), and offices in Richmond Hill (Ontario), and Greensboro (North Carolina). CanAm Imaging is more than well equipped to serve our extensive list of satisfied clients in North America and our Canon, Kodak, Konica Minolta, Ricoh and Xerox Export customers worldwide."
+              "We have a 15,000 square foot reconditioning and distribution facility in Rochester (New York), and offices in Markham (Ontario). CanAm Imaging is more than well equipped to serve our extensive list of satisfied clients."
             }
             icon={
               <BuildingOffice2Icon className="about__icon"></BuildingOffice2Icon>
@@ -84,7 +84,7 @@ function About() {
           <WhoWeAre
             title={"Strong Network"}
             para={
-              "Selected reconditioned Xerox equipment is covered by the Xerox Full Service Maintenance Agreement. To find out how this benefits you for ongoing maintenance of your equipment. We invite you to take advantage of the strong network of manufacturers and independent service organizations that our principals have built over the years, as well as our own, highly qualified technical support team that welcomes the opportunity to assist you by telephone or online."
+              "To find out how this benefits you for ongoing maintenance of your equipment. We invite you to take advantage of the strong network of manufacturers and independent service organizations that our principals have built over the years, as well as our own, highly qualified technical support team that welcomes the opportunity to assist you by telephone or online."
             }
             icon={
               <ClipboardDocumentCheckIcon className="about__icon"></ClipboardDocumentCheckIcon>

@@ -6,7 +6,7 @@ function Parts() {
   return (
     <div>
       <div className="parts">
-        <h1 className="parts--title">Xerox Parts</h1>
+        <h1 className="parts--title">Xerox and Kodak Digimaster Parts</h1>
         <hr className="parts--hr" />
         <p className="parts--para">
           CanAm Imaging provides Xerox parts to the I.S.O and Self-Service

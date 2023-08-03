@@ -29,6 +29,10 @@
     font-size: 17px;
 }
 
+.about--img-container {
+    width: 800px;
+}
+
 .about--img {
     width: 100%;
     max-width: 700px;

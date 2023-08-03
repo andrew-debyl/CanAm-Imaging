@@ -52,7 +52,7 @@ function Contact() {
             <h4>Technical Support</h4>
             <div className="email--wrapper">
               <a href="mailto:tech@canamimaging.com" className="email">
-                tech@canamimaging.com
+                info@canamimaging.com
               </a>
             </div>
           </div>
